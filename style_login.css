@@ -10,7 +10,7 @@ body {
     align-items: center; /*centralizar os itens*/
     margin: 5px;
     margin-left: 115px;
-    background-image: url(/src/papeldeparedeboy.jpg);
+    background-image: url(src/papeldeparedeboy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
