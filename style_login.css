@@ -11,6 +11,7 @@ body {
     margin: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    background-image: url(src/backgroundteladelogin.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,11 +24,12 @@ body {
 }
 
 .login-box {
-    background:#b65fcf;
+    background: rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(138, 38, 38, 0.1);
-    backdrop-filter: blur(50px);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
 }
 
 #Entrar{
@@ -39,17 +41,27 @@ body {
 .login-box h2{
     text-align: center;
     margin-bottom: 25px;
-    color: whitesmoke;
+    color: white;
 }
 
 .input-group{ 
      margin-bottom: 18px;
 }
 
+.input-group i{
+    position: absolute;
+    left: 300px;
+    top: 60%;
+    transform: translateY(-50%);
+    color: #666;
+    
+}
+
+
 .input-group label {
     display: block;
     margin-bottom: 6px;
-    color: #555;
+    color: white;
     font-size: 14px;
 }
 
@@ -98,6 +110,7 @@ button:hover {
     text-align: center;
     margin-top: 15px;
     font-size: 14px;
+    color: white;
 }
 
 .register a {
@@ -120,3 +133,4 @@ Ela permite aplicar estilos somente quando uma determinada condição for verdad
 }
 
 }
+
