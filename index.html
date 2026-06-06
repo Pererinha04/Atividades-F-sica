@@ -14,23 +14,26 @@
             
             <div class="input-group">
                 <label>E-mail</label>
-                <input type="email" placeholder="Digite seu email" required>
+                <input id="email" type="email" placeholder="Digite seu email" required>
             </div>
             
             <div class="input-group">
                 <label>Senha</label>
-                <input type="password" placeholder="Digite sua Senha" required>
+                <input id="password" type="password" placeholder="Digite sua Senha" required>
             </div>
 
-            <button type="submit">Entrar</button>
+            <button id="botaoLogin" type="button">Entrar</button>
+
+            <p id="mensagem"></p>
 
             <p class="register">
                 Não possui conta?
-                <a href="./páginacadastro.html">Cadastre-se</a> <!--Para não
+                <a href="./paginacadastro.html">Cadastre-se</a> <!--Para não
                                                                    ter erros no link
                                                                     use ./ -->
             </p>
         </form>
     </div>
+    <script src="botao_login.js"></script>
 </body>
 </html>
